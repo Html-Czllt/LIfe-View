@@ -1,0 +1,110 @@
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: aliceblue;
+    margin-bottom: 10%;
+    margin-top: 2%;
+   
+}
+
+
+
+body {
+    background-color: #2D0808;
+}   
+
+.botao {
+    display: flex;
+    flex-wrap: wrap; /* responsividade do site */
+  
+}           
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.imagem1 {
+    flex-grow: 1; /* responsividade do site */
+    flex-basis: 200; /* responsividade do site */
+    border: 2px solid black; /* Bordas iniciais */
+    transition: border-width 0.3s, transform 0.3s; /* Transição suave para a borda e transformação */
+    margin: 20px;
+    max-width: 1500px;
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+}
+   
+
+.imagem1:hover {
+    transform: scale(1.25); /* Aumenta o tamanho da imagem ao passar o mouse */
+    border-width: 5px; /* Aumenta a largura da borda ao passar o mouse */
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.countdown-container {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    
+  }
+  
+  #countdown {
+  
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+   box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    border-radius: 10px; /* Adicionando cantos arredondados */
+    padding: 50px; /* Adicionando espaço interno */ 
+    background-color: #2D0808;
+   
+   
+  }
+
+  .relogio{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 10%;
+  }
+
+  .relogio2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+  }
+
+  .divider {    
+    width: 100%;
+    height: 3px; /* Altura da linha */
+    background-color: #000000; /* Cor da linha */
+    margin-top: 22%;
+    
+  }
+
+ 
+
+  .divider2 {    
+    width: 100%;
+    height: 3px; /* Altura da linha */
+    background-color: #000000; /* Cor da linha */
+    margin-top: 22%;
+    margin-bottom: 5%;
+  }
+      

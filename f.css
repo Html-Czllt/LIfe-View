@@ -1,0 +1,16 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #countdown {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #333; /* Adicionando a borda estilizada */
+    border-radius: 10px; /* Adicionando cantos arredondados */
+    padding: 20px; /* Adicionando espaço interno */
+  }
+      
